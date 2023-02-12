@@ -1,0 +1,51 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/css/index.css")
+        script(src="https://unpkg.com/phosphor-icons")
+        title Document
+    body(class="bg-[#E5E7EB] relative flex")
+        section(class="admin__sidebar bg-[#111827] w-[200px] min-h-[100vh] text-white fixed top-0 left-0 z-20")
+            div(class="admin__sidebar--logo bg-white h-[60px] py-3 border-r border-gray-300")
+                div(class="admin__sidebar--logo--image h-full")
+                    img(src="/images/views/logo-ladiapp.svg" alt="" class="h-full w-auto block ml-[30px]")
+            div(class="admin__sidebar--navbar mt-2")
+                ul(class="sidebar__navbar--list")
+                    li(class="sidebar__navbar--item px-3 py-4 text-lg hover:bg-[#253047]")
+                        a(class="sidebar__navbar--link flex items-center gap-3")
+                            i(class="ph-chart-pie-slice translate-y-[2px]")
+                            span Dashboard
+                    li(class="sidebar__navbar--item px-3 py-4 text-lg hover:bg-[#253047]")
+                        a(class="sidebar__navbar--link flex items-center gap-3")
+                            i(class="ph-notepad translate-y-[2px]")
+                            span Order
+                    li(class="sidebar__navbar--item px-3 py-4 text-lg hover:bg-[#253047]")
+                        a(class="sidebar__navbar--link flex items-center gap-3")
+                            i(class="ph-cube translate-y-[2px]")
+                            span Product
+                    li(class="sidebar__navbar--item px-3 py-4 text-lg hover:bg-[#253047]")
+                        a(class="sidebar__navbar--link flex items-center gap-3" href="/admin/category/all")
+                            i(class="ph-android-logo translate-y-[2px]")
+                            span Category
+                    li(class="sidebar__navbar--item px-3 py-4 text-lg")
+                        a(class="sidebar__navbar--link flex items-center gap-3")
+                            i(class="ph-users translate-y-[2px]")
+                            span User
+        section(class="interface absolute top-0 left-[200px] right-0 min-h-[100vh]")
+            div(class="admin__top flex items-center justify-between sticky top-0 right-0 left-[200px] z-10 h-[63px] bg-white px-10 border-b-4 border-[#111827]")
+                div(class="addmin__top--search flex items-center border border-gray-500 py-2 px-5 rounded-md gap-5")
+                    i(class="ph-magnifying-glass translate-y-[1px]")
+                    input(type="text", name="admin__search" placeholder="Search something" class="outline-none")
+                div(class="admin__top--profile flex items-center gap-5")
+                    i(class="ph-bell-simple-bold text-xl")
+                    img(src="/images/users/user1.jpeg", alt="" class="w-12 h-12 rounded-[50%]")
+            div(class="admin__content p-10")
+                block content
+
+                
+        script(src="https://unpkg.com/axios/dist/axios.min.js")
+        script(src="/js/index.js")
+                

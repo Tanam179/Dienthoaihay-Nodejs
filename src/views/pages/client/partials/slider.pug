@@ -1,0 +1,55 @@
+div(class="header--slideshow py-5")
+    div(class="container w-[1200px] my-0 mx-auto flex gap-3")
+        div(class="categories w-[13%] bg-white")
+            //- ul(class="categories__list")
+                li(class="category__item flex items-center justify-between py-2 px-4 border-b-[1px] border-gray-100 cursor-pointer") 
+                    a(href="" class="block") Iphone
+                    <i class="ph-caret-right text-xs translate-y-[2px]"></i>
+                li(class="category__item flex items-center justify-between py-2 px-4 border-b-[1px] border-gray-100 cursor-pointer") 
+                    a(href="" class="block") Samsung
+                    <i class="ph-caret-right text-xs translate-y-[2px]"></i>
+                li(class="category__item flex items-center justify-between py-2 px-4 border-b-[1px] border-gray-100 cursor-pointer") 
+                    a(href="" class="block") Xiaomi
+                    <i class="ph-caret-right text-xs translate-y-[2px]"></i>
+                li(class="category__item flex items-center justify-between py-2 px-4 border-b-[1px] border-gray-100 cursor-pointer") 
+                    a(href="" class="block") Oppo
+                    <i class="ph-caret-right text-xs translate-y-[2px]"></i>
+                li(class="category__item flex items-center justify-between py-2 px-4 border-b-[1px] border-gray-100 cursor-pointer") 
+                    a(href="" class="block") Vivo
+                    <i class="ph-caret-right text-xs translate-y-[2px]"></i>
+                li(class="category__item flex items-center justify-between py-2 px-4 border-b-[1px] border-gray-100 cursor-pointer") 
+                    a(href="" class="block") Realme
+                    <i class="ph-caret-right text-xs translate-y-[2px]"></i>
+                li(class="category__item flex items-center justify-between py-2 px-4 border-b-[1px] border-gray-100 cursor-pointer") 
+                    a(href="" class="block") Nokia
+                    <i class="ph-caret-right text-xs translate-y-[2px]"></i>
+                li(class="category__item flex items-center justify-between py-2 px-4 border-b-[1px] border-gray-100 cursor-pointer") 
+                    a(href="" class="block") Asus
+                    <i class="ph-caret-right text-xs translate-y-[2px]"></i>
+                li(class="category__item flex items-center justify-between py-2 px-4 border-b-[1px] border-gray-100 cursor-pointer") 
+                    a(href="" class="block") Huawei
+                    <i class="ph-caret-right text-xs translate-y-[2px]"></i>
+        div(class="slideshow w-[64%] relative")
+            div(class="slideshow__nav absolute w-[100%] h-[100%]")
+                button(id="slideshow__prev--btn" class="absolute z-50 top-1/2 left-0 translate-x-[35px] translate-y-[-50%] inline-block w-[30px] h-[60px] rounded-sm bg-[#fff] text-xs ") 
+                    <i class="ph-caret-left text-base"></i>
+                button(id="slideshow__next--btn" class="absolute z-50 top-1/2 right-0 translate-x-[-35px] translate-y-[-50%] inline-block w-[30px] h-[60px] rounded-sm bg-[#fff] text-xs ")
+                    <i class="ph-caret-right text-base"></i>
+            div(class="slideshow__wrapper overflow-x-hidden h-[368px]")
+                div(class="slideshow__list flex h-[100%] transition-all duration-700")
+                    div(class="slideshow__item flex-grow flex-shrink-0 basis-[100%]")
+                        img(src="/images/sliders/sl1.jpg", alt="" class="w-[100%] h-[100%] object-cover")
+                    div(class="slideshow__item flex-grow flex-shrink-0 basis-[100%] ")
+                        img(src="/images/sliders/sl2.jpg", alt="" class="w-[100%] h-[100%] object-cover")
+                    div(class="slideshow__item flex-grow flex-shrink-0 basis-[100%]")
+                        img(src="/images/sliders/sl3.jpg", alt="" class="w-[100%] h-[100%] object-cover")
+                    div(class="slideshow__item flex-grow flex-shrink-0 basis-[100%]")
+                        img(src="/images/sliders/sl4.jpg", alt="" class="w-[100%] h-[100%] object-cover")
+        div(class="countdown w-[21%]")
+            div(class="coutdown__wrapper w-[100%] flex flex-col justify-between h-[100%]")
+                div(class="coutdown__item")
+                    img(src="/images/sliders/sl2_1.jpg", alt="" class="w-[100%] h-[115px]")
+                div(class="coutdown__item")
+                    img(src="/images/sliders/sl2_2.jpg", alt="" class="w-[100%] h-[115px]")
+                div(class="coutdown__item")
+                    img(src="/images/sliders/sl2_3.jpg", alt="" class="w-[100%] h-[115px]")

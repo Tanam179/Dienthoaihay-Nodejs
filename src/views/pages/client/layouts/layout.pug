@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/css/index.css")
+        link(rel="stylesheet", href="/css/custom.css")
+        script(src="https://unpkg.com/phosphor-icons")
+        title Document
+    body(class="bg-[#f8f8f8]")
+        include ./../partials/header.pug
+
+        block content
+
+        include ./../partials/footer.pug
+
+        script(src="https://unpkg.com/axios/dist/axios.min.js")
+        script(src="/js/index.js") 

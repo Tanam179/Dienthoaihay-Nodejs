@@ -1,0 +1,51 @@
+extends ./../layouts/adminLayout.pug
+
+block content
+    div(class="admin__content--title mb-8 flex items-center justify-between")
+        h1(class="text-3xl font-bold") Add Product
+    div(class="product__form--add bg-white rounded-lg overflow-x-hidden p-5")
+        form(action="/product" method="POST" enctype='multipart/form-data')
+            div(class="product__form--add--wrapper flex justify-between mb-5 flex-wrap")
+                div(class="product__form--group flex flex-col items-start gap-1 w-[49%] mb-5")
+                    label(for="productName" class="text-sm font-semibold") Name 
+                    input(type="text" name="productName" id="productName" placeholder="Enter Product Name" class="h-[40px] outline-none border border-blue-400 px-5 rounded-md w-full") 
+                div(class="product__form--group flex flex-col items-start gap-1 w-[49%] mb-5")
+                    label(for="productCate" class="text-sm font-semibold") Category 
+                    select(name="productCate" id="productCate" class="h-[40px] outline-none border border-blue-400 px-5 rounded-md w-full")
+                        option(selected="true" disabled="disabled") Choose Category
+                div(class="product__form--group flex flex-col items-start gap-1 w-[100%] mb-5")
+                    label(for="productDesc" class="text-sm font-semibold") Description 
+                    textarea(name="productDesc" class="h-[200px] outline-none border border-blue-400 p-5 rounded-md w-full resize-none")
+                div(class="product__form--group flex flex-col items-start gap-1 w-[49%] mb-5")
+                    label(for="productPrice" class="text-sm font-semibold") Price 
+                    input(type="text" name="productPrice" id="productPrice" class="h-[40px] outline-none border border-blue-400 px-5 rounded-md w-full")
+                div(class="product__form--group flex flex-col items-start gap-1 w-[49%] mb-5")
+                    label(for="productSalePrice" class="text-sm font-semibold") Sale Price 
+                    input(type="text" name="productSalePrice" id="productSalePrice" class="h-[40px] outline-none border border-blue-400 px-5 rounded-md w-full")
+                div(class="product__form--group flex flex-col items-start gap-1 w-[100%] mb-5")
+                    label(class="text-sm font-semibold") Images
+                    div(class="product__upload--image border-4 p-5 border-dashed border-blue-500 rounded-lg w-full h-[250px] flex items-center justify-center")
+                        div(class="btn__upload--image flex items-center flex-col justify-center gap-5")
+                            i(class="ph-upload-simple text-6xl")
+                            p(class="bg-[#111827] text-white py-3 px-10 rounded-lg cursor-pointer") Upload Files
+                        input(type="file" name="productImages[]" id="productImages" multiple class="hidden")
+                        div(class="images-preview mt-5")
+                            div(class="image__preview--item")
+                            div(class="image__preview--item")
+                            div(class="image__preview--item")
+
+                div(class="product__form--group w-[100%]")
+                    label(class="text-sm font-semibold") Properties 
+                    div(class="product__form--properties--wrapper")
+                        div(class="product__form--properties--flex flex justify-between items-start")
+                            div(class="product__form--properties w-[49%] flex flex-col items-start gap-1")
+                                label(for="productPropertyKey") Property Name
+                                input(type="text" name="propertyKey[]" id="productPropertyKey")
+                            div(class="product__form--properties w-[49%] flex flex-col items-start gap-1")
+                                label(for="productPropertyValue") Property Value
+                                input(type="text" name="propertyValue[]" id="productPropertyValue")
+                    button(type="button") Add more property
+                 
+                        
+            div(class="add--category__button flex justify-end")
+                button(class="add__btn inline-block py-2 px-10 bg-blue-500 text-white rounded-md") Add

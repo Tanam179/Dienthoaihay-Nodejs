@@ -1,0 +1,98 @@
+extends ./../layouts/adminLayout.pug
+
+block content
+    div(class="admin__content--title mb-8 flex items-center justify-between")
+        h1(class="text-3xl font-bold") Product
+        div(class="category__add--new flex items-center text-white bg-[#111827] py-3 px-5 gap-2 rounded-lg")
+            i(class="ph-plus-bold text-xl")
+            a(href="/admin/category/add" class="uppercase font-bold") Add new
+    div(class="category__table bg-white rounded-lg overflow-x-hidden")
+        table(class="w-full border-collapse")
+            thead
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="bg-[#F9FAFB]  p-4 uppercase font-semibold text-sm") Name
+                    td(class="bg-[#F9FAFB]  p-4 uppercase font-semibold text-sm") Image 
+                    td(class="bg-[#F9FAFB]  p-4 uppercase font-semibold text-sm") Price
+                    td(class="bg-[#F9FAFB]  p-4 uppercase font-semibold text-sm") Category 
+                    td(class="bg-[#F9FAFB]  p-4 uppercase font-semibold text-sm") Options
+            tbody
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="product__name gap-4 px-4 py-[10px]")
+                        p iPhone 14 Pro Max
+                    td(class="product__image px-4 py-[10px]")
+                        img(src="/images/products/tim_1662970931.jpg" alt="" class="w-[90px] h-[80px] translate-x-[-10px]")
+                    td(class="product__price gap-4 px-4 py-[10px]")
+                        p 32,500,000 VND
+                    td(class="product__cate gap-4 px-4 py-[10px]")
+                        p iPhone 14 Series
+                    td(class="options px-4 py-[10px]")
+                        div(class="options__edit inline-block mr-3")
+                            a(href="")
+                                <i class="ph-note-pencil text-[#66cf82] text-2xl translate-y-[3px]"></i>
+                        div(class="options__delete inline-block")
+                            a(href="")
+                                <i class="ph-trash-simple text-[#f22a59] text-2xl translate-y-[3px]"></i>
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="product__name gap-4 px-4 py-[10px]")
+                        p iPhone 14 Pro Max
+                    td(class="product__image px-4 py-[10px]")
+                        img(src="/images/products/tim_1662970931.jpg" alt="" class="w-[90px] h-[80px] translate-x-[-10px]")
+                    td(class="product__price gap-4 px-4 py-[10px]")
+                        p 32,500,000 VND
+                    td(class="product__cate gap-4 px-4 py-[10px]")
+                        p iPhone 14 Series
+                    td(class="options px-4 py-[10px]")
+                        div(class="options__edit inline-block mr-3")
+                            a(href="")
+                                <i class="ph-note-pencil text-[#66cf82] text-2xl translate-y-[3px]"></i>
+                        div(class="options__delete inline-block")
+                            a(href="")
+                                <i class="ph-trash-simple text-[#f22a59] text-2xl translate-y-[3px]"></i>
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="product__name gap-4 px-4 py-[10px]")
+                        p iPhone 14 Pro Max
+                    td(class="product__image px-4 py-[10px]")
+                        img(src="/images/products/tim_1662970931.jpg" alt="" class="w-[90px] h-[80px] translate-x-[-10px]")
+                    td(class="product__price gap-4 px-4 py-[10px]")
+                        p 32,500,000 VND
+                    td(class="product__cate gap-4 px-4 py-[10px]")
+                        p iPhone 14 Series
+                    td(class="options px-4 py-[10px]")
+                        div(class="options__edit inline-block mr-3")
+                            a(href="")
+                                <i class="ph-note-pencil text-[#66cf82] text-2xl translate-y-[3px]"></i>
+                        div(class="options__delete inline-block")
+                            a(href="")
+                                <i class="ph-trash-simple text-[#f22a59] text-2xl translate-y-[3px]"></i>
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="product__name gap-4 px-4 py-[10px]")
+                        p iPhone 14 Pro Max
+                    td(class="product__image px-4 py-[10px]")
+                        img(src="/images/products/tim_1662970931.jpg" alt="" class="w-[90px] h-[80px] translate-x-[-10px]")
+                    td(class="product__price gap-4 px-4 py-[10px]")
+                        p 32,500,000 VND
+                    td(class="product__cate gap-4 px-4 py-[10px]")
+                        p iPhone 14 Series
+                    td(class="options px-4 py-[10px]")
+                        div(class="options__edit inline-block mr-3")
+                            a(href="")
+                                <i class="ph-note-pencil text-[#66cf82] text-2xl translate-y-[3px]"></i>
+                        div(class="options__delete inline-block")
+                            a(href="")
+                                <i class="ph-trash-simple text-[#f22a59] text-2xl translate-y-[3px]"></i>
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="product__name gap-4 px-4 py-[10px]")
+                        p iPhone 14 Pro Max
+                    td(class="product__image px-4 py-[10px]")
+                        img(src="/images/products/tim_1662970931.jpg" alt="" class="w-[90px] h-[80px] translate-x-[-10px]")
+                    td(class="product__price gap-4 px-4 py-[10px]")
+                        p 32,500,000 VND
+                    td(class="product__cate gap-4 px-4 py-[10px]")
+                        p iPhone 14 Series
+                    td(class="options px-4 py-[10px]")
+                        div(class="options__edit inline-block mr-3")
+                            a(href="")
+                                <i class="ph-note-pencil text-[#66cf82] text-2xl translate-y-[3px]"></i>
+                        div(class="options__delete inline-block")
+                            a(href="")
+                                <i class="ph-trash-simple text-[#f22a59] text-2xl translate-y-[3px]"></i>

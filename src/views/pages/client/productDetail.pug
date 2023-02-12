@@ -1,0 +1,76 @@
+extends ./layouts/layout.pug
+
+block content
+    div(class="product__details py-5 bg-white")
+        div(class="container w-[1200px] my-0 mx-auto")
+            div(class="product__details--header flex items-center gap-4 pb-1 border-b border-b-gray-200")
+                div(class="product__details--name text-[#0A263C] text-xl font-semibold")
+                    h1 #{name}
+                div(class="product__details--ratings flex items-center gap-2")
+                    div(class="product__details--star star__active w-[12px] h-[12px]")
+                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-[12px] fill-[#f59e0b]")
+                            path(d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z")
+                    div(class="product__details--star star__active w-[12px] h-[12px]")
+                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-[12px] fill-[#f59e0b]")
+                            path(d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z")
+                    div(class="product__details--star star__active w-[12px] h-[12px]")
+                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-[12px] fill-[#f59e0b]")
+                            path(d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z")
+                    div(class="product__details--star star__active w-[12px] h-[12px]")
+                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-[12px] fill-[#f59e0b]")
+                            path(d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z")
+                    div(class="product__details--star star__active w-[12px] h-[12px]")
+                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-[12px] fill-[#f59e0b]")
+                            path(d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z")
+                div(class="amount__ratings text-sm text-[#4a4a4a]")
+                    p (11 người đánh giá)
+            div(class="product__details--main mt-5 flex items-start justify-between")
+                div(class="product__details--images w-[35%]")
+                    div(class="product__details--image--cover w-[100%] px-4 py-3 border border-gray-200 rounded-xl")
+                        img(src="/images/products/tim_1662970546.jpg", alt="" class="w-full h-[auto] object-cover")
+                    div(class="product__details--thumbnails flex items-center justify-between mt-5")
+                        img(src="/images/products/tim_1662970546.jpg", alt="" class="w-[15%] h-auto p-2 border border-gray-200 rounded-md")
+                        img(src="/images/products/tim_1662970546.jpg", alt="" class="w-[15%] h-auto p-2 border border-gray-200 rounded-md")
+                        img(src="/images/products/tim_1662970546.jpg", alt="" class="w-[15%] h-auto p-2 border border-gray-200 rounded-md")
+                        img(src="/images/products/tim_1662970546.jpg", alt="" class="w-[15%] h-auto p-2 border border-gray-200 rounded-md")
+                        img(src="/images/products/tim_1662970546.jpg", alt="" class="w-[15%] h-auto p-2 border border-gray-200 rounded-md")
+                        img(src="/images/products/tim_1662970546.jpg", alt="" class="w-[15%] h-auto p-2 border border-gray-200 rounded-md")
+                div(class="product__details--info w-[30%]")
+                    div(class="product__details--price flex items-end gap-5")
+                        p(class="product__details--saleprice text-[#e01020] font-bold text-2xl") #{originalPrice} ₫
+                        p(class="feature__phone--oldprice text-base line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                    div(class="product__details--options mt-5")
+                        each val, index in options
+                            div(class="options mb-5")
+                                div(class="options__data flex items-start")
+                                    div(class="options__data--title w-[80px]")
+                                        p(class="font-semibold text-lg") #{index}:
+                                    div(class="product__details--memory flex items-center flex-wrap gap-y-3 justify-between flex-1")
+                                        each val in options[index]
+                                            div(class="options__group w-[30%] border border-red-500 text-[13px] font-medium flex flex-col items-center justify-center py-1 rounded-md")
+                                                p= val.title
+                        //- div(class="product__details--memory flex items-center flex-wrap gap-y-3 justify-between")
+                        //-     div(class="product__details--memory--item w-[48%] border border-red-500 text-[13px] font-medium flex flex-col items-center justify-center py-1 rounded-md")
+                        //-         p(class="memory") 128GB
+                        //-         p(class="memory") 30.490.000 ₫
+                        //-     div(class="product__details--memory--item w-[48%] border border-gray-200 text-[13px] font-medium flex flex-col items-center justify-center py-1 rounded-md")
+                        //-         p(class="memory") 256G
+                        //-         p(class="memory") 33.490.000 ₫
+                        //-     div(class="product__details--memory--item w-[48%] border border-gray-200 text-[13px] font-medium flex flex-col items-center justify-center py-1 rounded-md")
+                        //-         p(class="memory") 512GB
+                        //-         p(class="memory") 35.490.000 ₫
+                        //-     div(class="product__details--memory--item w-[48%] border border-gray-200 text-[13px] font-medium flex flex-col items-center justify-center py-1 rounded-md")
+                        //-         p(class="memory") 1TB
+                        //-         p(class="memory") 38.490.000 ₫
+                    div(class="buy__addcart--btn")
+                        div(class="buy__product--btn")
+                            a(href="" class="block bg-[#e01020] text-white")
+                                span Mua ngay 
+                                span Giao hàng tận nơi hoặc lấy tại cửa hàng 
+                        div(class="addcart__btn")
+                            button 
+                                
+                    
+
+                div(class="product__details--technical--info w-[30%]")
+

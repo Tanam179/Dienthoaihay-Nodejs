@@ -1,0 +1,447 @@
+extends ./layouts/layout.pug
+
+block content
+    include ./partials/slider.pug
+
+    div(class="content__wrapper mb-5")
+        div(class="feature__phone mb-5")
+            div(class="container w-[1200px] my-0 mx-auto")
+                div(class="feature__phone--top flex items-center justify-between mb-4")
+                    h2(class="feature__phone--title uppercase font-bold text-xl text-[#444]") Iphone nổi bật nhất
+                    a(href="" class="feature__phone--watch--all text-sm font-medium inline-block py-2 px-4 bg-[#f1f2f3] rounded-[4px] text-[#444] border border-[#ccc]") Xem tất cả 
+                div(class="feature__phone--slide")
+                    div(class="feature__phone--slide--wrapper flex gap-3")
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/product/63a86bff16ab85df54e22b01")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/tim_1662970546.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p iPhone 14 Pro 128GB | Chính hãng VN/A
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/tim_1662970546.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p iPhone 14 Pro 128GB | Chính hãng VN/A
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star star__active")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star star__active")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star star__active")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star star__active")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star star__active")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/tim_1662970546.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p iPhone 14 Pro 128GB | Chính hãng VN/A
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/tim_1662970546.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p iPhone 14 Pro 128GB | Chính hãng VN/A
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/tim_1662970546.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p iPhone 14 Pro 128GB | Chính hãng VN/A
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+        div(class="feature__phone mb-5")
+            div(class="container w-[1200px] my-0 mx-auto")
+                div(class="feature__phone--top flex items-center justify-between mb-4")
+                    h2(class="feature__phone--title uppercase font-bold text-xl text-[#444]") Samsung nổi bật nhất
+                    a(href="" class="feature__phone--watch--all text-sm font-medium inline-block py-2 px-4 bg-[#f1f2f3] rounded-[4px] text-[#444] border border-[#ccc]") Xem tất cả 
+                div(class="feature__phone--slide")
+                    div(class="feature__phone--slide--wrapper flex gap-3")
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/black_1607227968.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p Samsung Galaxy S22 Ultra (8GB - 128GB)
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/black_1607227968.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p Samsung Galaxy S22 Ultra (8GB - 128GB)
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/black_1607227968.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p Samsung Galaxy S22 Ultra (8GB - 128GB)
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/black_1607227968.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p Samsung Galaxy S22 Ultra (8GB - 128GB)
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/black_1607227968.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p Samsung Galaxy S22 Ultra (8GB - 128GB)
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+        div(class="feature__phone")
+            div(class="container w-[1200px] my-0 mx-auto")
+                div(class="feature__phone--top flex items-center justify-between mb-4")
+                    h2(class="feature__phone--title uppercase font-bold text-xl text-[#444]") Xiaomi nổi bật nhất
+                    a(href="" class="feature__phone--watch--all text-sm font-medium inline-block py-2 px-4 bg-[#f1f2f3] rounded-[4px] text-[#444] border border-[#ccc]") Xem tất cả 
+                div(class="feature__phone--slide")
+                    div(class="feature__phone--slide--wrapper flex gap-3")
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/blackshark5pro.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p Xiaomi Black Shark 5 Pro (8GB - 256GB)
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/blackshark5pro.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p Xiaomi Black Shark 5 Pro (8GB - 256GB)
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/blackshark5pro.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p Xiaomi Black Shark 5 Pro (8GB - 256GB)
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/blackshark5pro.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p Xiaomi Black Shark 5 Pro (8GB - 256GB)
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                        div(class="feature__phone--slide--item w-[20%] rounded-xl bg-white py-4 px-3 relative")
+                            a(href="/iphone-14-promax-256gb-tim")
+                                div(class="feature__phone--image mb-2")
+                                    img(src="/images/products/blackshark5pro.jpg", alt="" class="w-[100%] h-auto rounded-xl")
+                                div(class="feature__phone--name text-[15px] font-semibold mb-3")
+                                    p Xiaomi Black Shark 5 Pro (8GB - 256GB)
+                                div(class="feature__phone--price flex items-end gap-5 mb-[15px]")
+                                    p(class="feature__phone--saleprice text-[#e01020] font-semibold ") 30.490.000 ₫
+                                    p(class="feature__phone--oldprice text-sm line-through font-semibold translate-y-[-1px]") 35.490.000 ₫
+                                    div(class="feature__phone--sale--percent absolute bg-sale-percent top-0 left-[-6px] py-[6px] w-[100px] bg-[#e01020] rounded-tl-sale-percent-tl rounded-tr-sale-percent-tr rounded-br-sale-percent-br flex items-center justify-center")
+                                        div(class="circle bg-[#a50c18] w-[7px] h-[7px] rounded-[50%] bottom-[-4px] left-0 absolute -z-10")
+                                        p(class="feature__phone--sale--percent--detail text-white text-xs font-semibold") Giảm 15%
+                                div(class="feature__phone--ratings flex items-center")
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>
+                                    div(class="feature__phone--star")
+                                        svg(height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-15px fill-[#f59e0b]")
+                                            <path d="M381.2 150.3L524.9 171.5C536.8 173.2 546.8 181.6 550.6 193.1C554.4 204.7 551.3 217.3 542.7 225.9L438.5 328.1L463.1 474.7C465.1 486.7 460.2 498.9 450.2 506C440.3 513.1 427.2 514 416.5 508.3L288.1 439.8L159.8 508.3C149 514 135.9 513.1 126 506C116.1 498.9 111.1 486.7 113.2 474.7L137.8 328.1L33.58 225.9C24.97 217.3 21.91 204.7 25.69 193.1C29.46 181.6 39.43 173.2 51.42 171.5L195 150.3L259.4 17.97C264.7 6.954 275.9-.0391 288.1-.0391C300.4-.0391 311.6 6.954 316.9 17.97L381.2 150.3z"></path>    

@@ -1,0 +1,31 @@
+extends ./../layouts/adminLayout.pug
+
+block content
+    div(class="admin__content--title mb-8 flex items-center justify-between")
+        h1(class="text-3xl font-bold") Category
+        div(class="category__add--new flex items-center text-white bg-[#111827] py-3 px-5 gap-2 rounded-lg")
+            i(class="ph-plus-bold text-xl")
+            a(href="/admin/category/add" class="uppercase font-bold") Add new
+    div(class="category__table bg-white rounded-lg overflow-x-hidden")
+        table(class="w-full border-collapse")
+            thead
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="bg-[#F9FAFB]  p-4 uppercase font-semibold text-sm") Name
+                    td(class="bg-[#F9FAFB]  p-4 uppercase font-semibold text-sm") Parent 
+                    td(class="bg-[#F9FAFB]  p-4 uppercase font-semibold text-sm") Options
+            tbody
+                each val in arrCate
+                    tr(class="border-b border-[#eef0f3]")
+                        td(class="people flex items-center gap-4 px-4 py-[10px]")
+                            p= val.cate
+                        td(class="people-desc px-4 py-[10px]")
+                            p= val.parent
+                        td(class="options flex items-center gap-3 px-4 py-[10px]")
+                            div(class="options__edit")
+                                a(href="")
+                                    <i class="ph-note-pencil text-[#66cf82] text-2xl translate-y-[3px]"></i>
+                            div(class="options__delete ")
+                                a(href="")
+                                    <i class="ph-trash-simple text-[#f22a59] text-2xl translate-y-[3px]"></i>
+                
+                    

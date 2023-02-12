@@ -1,0 +1,160 @@
+extends ./layouts/adminLayout.pug
+
+block content
+    div(class="admin__content--title mb-8")
+        h1(class="text-3xl font-bold") Dashboard
+    div(class="admin__chart--values flex justify-between mb-5")
+        div(class="admin__chart--users w-[23%] bg-white rounded-lg px-6 py-4 flex items-center gap-5")
+            div(class="admin__chart--icon w-[80px] h-[80px] rounded-[50%] flex items-center justify-center bg-[#7b74ec]")
+                i(class="ph-users-three text-4xl text-white")
+            div(class="admin__chart--users--title")
+                p(class="text-xl font-bold") 87,250
+                p(class="text-lg font-semibold text-[#444]") New Users
+        div(class="admin__chart--orders w-[23%] bg-white rounded-lg px-6 py-4 flex items-center gap-5")
+            div(class="admin__chart--icon w-[80px] h-[80px] rounded-[50%] flex items-center justify-center bg-[#5c8af0]")
+                i(class="ph-note text-4xl text-white")
+            div(class="admin__chart--orders--title")
+                p(class="text-xl font-bold") 100
+                p(class="text-lg font-semibold text-[#444]") Total Orders 
+        div(class="admin__chart--products w-[23%] bg-white rounded-lg px-6 py-4 flex items-center gap-5")
+            div(class="admin__chart--icon w-[80px] h-[80px] rounded-[50%] flex items-center justify-center bg-[#e45d99]")
+                i(class="ph-package text-4xl text-white")
+            div(class="admin__chart--products--title")
+                p(class="text-xl font-bold") 12,500
+                p(class="text-lg font-semibold text-[#444]") Total Products
+        div(class="admin__chart--money w-[23%] bg-white rounded-lg px-6 py-4 flex items-center gap-5")
+            div(class="admin__chart--icon w-[80px] h-[80px] rounded-[50%] flex items-center justify-center bg-[#74daec]")
+                i(class="ph-currency-dollar text-4xl text-white")
+            div(class="admin__chart--money--title")
+                p(class="text-xl font-bold") 1,250,000,000
+                p(class="text-lg font-semibold text-[#444]") This Month
+    div(class="users__table bg-white rounded-lg overflow-x-hidden")
+        table(class="w-full border-collapse")
+            thead
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="bg-[#F9FAFB]  p-4 uppercase font-semibold text-sm") Name
+                    td(class="bg-[#F9FAFB]  p-4 uppercase font-semibold text-sm") Title 
+                    td(class="bg-[#F9FAFB]  p-4 uppercase font-semibold text-sm") Status 
+                    td(class="bg-[#F9FAFB]  p-4 uppercase font-semibold text-sm") Role 
+                    td(class="bg-[#F9FAFB]  p-4 uppercase font-semibold text-sm") Options
+            tbody
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="people flex items-center gap-4 px-4 py-[10px]")
+                        img(src="/images/users/user1.jpeg", alt="" class="w-12 h-12 rounded-[50%] object-cover")
+                        div(class="people-info")
+                            h4(class="text-lg font-semibold") John Doe 
+                            p john@example.com
+                    td(class="people-desc px-4 py-[10px]")
+                        h4(class="text-lg font-semibold") Software Engineer 
+                        p Web Dev
+                    td(class="people-active px-4 py-[10px]")
+                        span(class="inline-block py-[2px] px-[15px] bg-[#d7fada] rounded-full text-sm") Active
+                    td(class="people-role px-4 py-[10px]")
+                        p User
+                    td(class="options flex items-center gap-3 px-4 py-[10px]")
+                        div(class="options__edit")
+                            a(href="")
+                                <i class="ph-note-pencil-bold text-[#66cf82] text-2xl"></i>
+                        div(class="options__delete ")
+                            a(href="")
+                                <i class="ph-trash-simple-bold text-[#f22a59] text-2xl"></i>
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="people flex items-center gap-4 px-4 py-[10px]")
+                        img(src="/images/users/user1.jpeg", alt="" class="w-12 h-12 rounded-[50%] object-cover")
+                        div(class="people-info")
+                            h4(class="text-lg font-semibold") John Doe 
+                            p john@example.com
+                    td(class="people-desc px-4 py-[10px]")
+                        h4(class="text-lg font-semibold") Software Engineer 
+                        p Web Dev
+                    td(class="people-active px-4 py-[10px]")
+                        span(class="inline-block py-[2px] px-[15px] bg-[#d7fada] rounded-full text-sm") Active
+                    td(class="people-role px-4 py-[10px]")
+                        p User
+                    td(class="options flex items-center gap-3 px-4 py-[10px]")
+                        div(class="options__edit")
+                            a(href="")
+                                <i class="ph-note-pencil-bold text-[#66cf82] text-2xl"></i>
+                        div(class="options__delete ")
+                            a(href="")
+                                <i class="ph-trash-simple-bold text-[#f22a59] text-2xl"></i>
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="people flex items-center gap-4 px-4 py-[10px]")
+                        img(src="/images/users/user1.jpeg", alt="" class="w-12 h-12 rounded-[50%] object-cover")
+                        div(class="people-info")
+                            h4(class="text-lg font-semibold") John Doe 
+                            p john@example.com
+                    td(class="people-desc px-4 py-[10px]")
+                        h4(class="text-lg font-semibold") Software Engineer 
+                        p Web Dev
+                    td(class="people-active px-4 py-[10px]")
+                        span(class="inline-block py-[2px] px-[15px] bg-[#d7fada] rounded-full text-sm") Active
+                    td(class="people-role px-4 py-[10px]")
+                        p User
+                    td(class="options flex items-center gap-3 px-4 py-[10px]")
+                        div(class="options__edit")
+                            a(href="")
+                                <i class="ph-note-pencil-bold text-[#66cf82] text-2xl"></i>
+                        div(class="options__delete ")
+                            a(href="")
+                                <i class="ph-trash-simple-bold text-[#f22a59] text-2xl"></i>
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="people flex items-center gap-4 px-4 py-[10px]")
+                        img(src="/images/users/user1.jpeg", alt="" class="w-12 h-12 rounded-[50%] object-cover")
+                        div(class="people-info")
+                            h4(class="text-lg font-semibold") John Doe 
+                            p john@example.com
+                    td(class="people-desc px-4 py-[10px]")
+                        h4(class="text-lg font-semibold") Software Engineer 
+                        p Web Dev
+                    td(class="people-active px-4 py-[10px]")
+                        span(class="inline-block py-[2px] px-[15px] bg-[#d7fada] rounded-full text-sm") Active
+                    td(class="people-role px-4 py-[10px]")
+                        p User
+                    td(class="options flex items-center gap-3 px-4 py-[10px]")
+                        div(class="options__edit")
+                            a(href="")
+                                <i class="ph-note-pencil-bold text-[#66cf82] text-2xl"></i>
+                        div(class="options__delete ")
+                            a(href="")
+                                <i class="ph-trash-simple-bold text-[#f22a59] text-2xl"></i>
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="people flex items-center gap-4 px-4 py-[10px]")
+                        img(src="/images/users/user1.jpeg", alt="" class="w-12 h-12 rounded-[50%] object-cover")
+                        div(class="people-info")
+                            h4(class="text-lg font-semibold") John Doe 
+                            p john@example.com
+                    td(class="people-desc px-4 py-[10px]")
+                        h4(class="text-lg font-semibold") Software Engineer 
+                        p Web Dev
+                    td(class="people-active px-4 py-[10px]")
+                        span(class="inline-block py-[2px] px-[15px] bg-[#d7fada] rounded-full text-sm") Active
+                    td(class="people-role px-4 py-[10px]")
+                        p User
+                    td(class="options flex items-center gap-3 px-4 py-[10px]")
+                        div(class="options__edit")
+                            a(href="")
+                                <i class="ph-note-pencil-bold text-[#66cf82] text-2xl"></i>
+                        div(class="options__delete ")
+                            a(href="")
+                                <i class="ph-trash-simple-bold text-[#f22a59] text-2xl"></i>
+                tr(class="border-b border-[#eef0f3]")
+                    td(class="people flex items-center gap-4 px-4 py-[10px]")
+                        img(src="/images/users/user1.jpeg", alt="" class="w-12 h-12 rounded-[50%] object-cover")
+                        div(class="people-info")
+                            h4(class="text-lg font-semibold") John Doe 
+                            p john@example.com
+                    td(class="people-desc px-4 py-[10px]")
+                        h4(class="text-lg font-semibold") Software Engineer 
+                        p Web Dev
+                    td(class="people-active px-4 py-[10px]")
+                        span(class="inline-block py-[2px] px-[15px] bg-[#d7fada] rounded-full text-sm") Active
+                    td(class="people-role px-4 py-[10px]")
+                        p User
+                    td(class="options flex items-center gap-3 px-4 py-[10px]")
+                        div(class="options__edit")
+                            a(href="")
+                                <i class="ph-note-pencil-bold text-[#66cf82] text-2xl"></i>
+                        div(class="options__delete ")
+                            a(href="")
+                                <i class="ph-trash-simple-bold text-[#f22a59] text-2xl"></i> 

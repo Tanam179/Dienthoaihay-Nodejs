@@ -1,0 +1,20 @@
+extends ./../layouts/adminLayout.pug
+
+block content
+    div(class="admin__content--title mb-8 flex items-center justify-between")
+        h1(class="text-3xl font-bold") Add Category
+    div(class="category__form--add bg-white rounded-lg overflow-x-hidden p-5")
+        form(action="/category" method="POST")
+            div(class="category__form--add--wrapper flex justify-between mb-5")
+                div(class="category__form--group flex flex-col items-start gap-1 w-[48%]")
+                    label(for="categoryName" class="text-sm font-semibold") Name 
+                    input(type="text" name="categoryName" id="categoryName" placeholder="Enter Category Name" class="h-[40px] outline-none border border-blue-400 px-5 rounded-md w-full") 
+                div(class="category__form--group flex flex-col items-start gap-1 w-[48%]")
+                    label(for="parentId" class="text-sm font-semibold") Parent 
+                    select(name="parentId" id="parentId" class="h-[40px] outline-none border border-blue-400 px-5 rounded-md w-full")
+                        option(selected="true" disabled="disabled") Choose Tagging
+                        
+            div(class="add--category__button flex justify-end")
+                button(class="add__btn inline-block py-2 px-10 bg-blue-500 text-white rounded-md") Add
+        
+    
